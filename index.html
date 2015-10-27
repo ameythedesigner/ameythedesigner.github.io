@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Amey Lele | Web Designer</title>
+	<link rel="stylesheet" href="css/fullpage.css">
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Courgette' rel='stylesheet' type='text/css'>
+	<style>
+		#exp
+		{
+			background-image: url("img/home.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	</style>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+
+<div id="fullpage">
+
+    <div class="section" id="home">
+    	<h1>
+    		Hello, I'm Amey, <br> a Freelance Front-End Dev <br> based somewhere in India
+    	</h1>
+    </div>
+
+    <div class="section" id="about">
+		<p>
+			Hello there. My name is Amey and I am UX and Web Designer based in India. My key expertise includes building experiences and providing world-class designs for web. I like demanding tasks and big challenges so I can fall and rise. My hard-working soul and precise eye keeps me in perfect shape. Hunger, passion, communicability, honesty and discretion are words that describe me the most. I prefer building partnerships instead of just pure designs.
+		</p>
+    </div>
+
+    <div class="section" id="exp">
+		<a target="_blank" href="http://www.dlita-blog.tumblr.com"><h1>Dlita Blog</h1></a>
+    </div>
+
+	<div class="section" id="quote">
+		<h1>
+			<q>
+				It’s very easy to be different, but very difficult to be better.
+			</q>
+		</h1>
+		<hr class="sep">
+	</div>
+
+    <div class="section" id="contact">
+    	<h1>Experience</h1>
+    	<p>
+    		I have good knowledge of HTML5, CSS3 and Jquery. Also I am good at programming in 
+    		C++, C#, Java. I love to build stuff which delights people. 
+    	</p>
+    	<p>
+    		I share about my life on <a target="_blank" href="https://instagram.com/_amey2810/">Instagram</a> or shoot me an email at <a href="mailto:ameythedesigner@gmail.com">ameythedesigner@gmail.com</a>
+    	</p>
+    </div>
+
+</div>
+
+
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/fullpage.js"></script>
+
+<script>
+	$(document).ready(function() {
+    	$('#fullpage').fullpage({navigation:true, slidesNavigation: true, controlArrows: false,navigationTooltips: ['Home', 'About', 'Work', 'Thought' , 'Contact']});
+	});
+
+</script>
+
+</body>
+</html>
